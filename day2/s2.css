@@ -1,19 +1,27 @@
-*
-{
-    margin:0px;
-    padding:0px;
+*{
+    margin: 0;
+    padding: 0;
 }
 table{
-width:100;
-border-radius: 12px;
-border-style:blue;
-border-width: 5px;
-
+    width: 100%;
+    border-radius: 12px;
+    border-style: dashed;
+    border-color: blue;
+    border-width: 5px;
 }
-#heading {
-text-align: center;
-font-size:60px;
-background-color: burlywood;
-color:black
-
+td{
+    border: 1px dashed;
+    text-align: center;
+}
+#heading{
+    text-align: center;
+    font-size: 60px;
+    background-color:grey;
+    color: red;
+}
+#row1{
+    background-color: blueviolet;
+}
+#row2{
+    background-color: chocolate;
 }
